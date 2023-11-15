@@ -1,9 +1,109 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "produtos": [
+    {
+      "id": 1,
+      "Quantidade": "20",
+      "QMinima": "2",
+      "Valor": "59.00",
+      "Marca": "Nike",
+      "nome": "Camiseta Nike Dri-FIT Academy Masculina",
+      "Descricao": "Eleve o nível do seu treino diário com a camiseta Nike Dri-FIT Academy. O tecido macio e elástico remove o suor da pele, enquanto os painéis de tela mantêm o frescor para que você se concentre em dar o seu melhor no jogo.",
+      "Image": "https://imgcentauro-a.akamaihd.net/600x600/95847031/camiseta-nike-dry-academy-21-top-masculina-img.jpg",
+      "Nome": "Camisseta da nike"
+    },
+    {
+      "id": 2,
+      "Quantidade": "20",
+      "QMinima": "2",
+      "Valor": "90.00",
+      "Marca": "Nike",
+      "Nome": "Camiseta Nike Dri-FIT Academy Masculina",
+      "Descricao": "Eleve o nível do seu treino diário com a camiseta Nike Dri-FIT Academy. O tecido macio e elástico remove o suor da pele, enquanto os painéis de tela mantêm o frescor para que você se concentre em dar o seu melhor no jogo.",
+      "Image": "https://imgcentauro-a.akamaihd.net/600x600/95847031/camiseta-nike-dry-academy-21-top-masculina-img.jpg"
+    },
+    {
+      "Quantidade": "32",
+      "QMinima": "1",
+      "Valor": "222",
+      "Marca": "Camiseta",
+      "Nome": "Camisa Luffy",
+      "Descricao": "qerfytgyhujio",
+      "Image": {},
+      "id": 5
+    },
+    {
+      "Quantidade": "32",
+      "QMinima": "10",
+      "Valor": "50.00",
+      "Marca": "Camiseta",
+      "Nome": "Camisa Luffy",
+      "Descricao": "Camiseta de qualidade...",
+      "Image": "C:\\fakepath\\image.png",
+      "id": 6
+    },
+    {
+      "Quantidade": "15",
+      "QMinima": "2",
+      "Valor": "10.00",
+      "Marca": "Polo",
+      "Nome": "smdgfmlfdmgdfg",
+      "Descricao": "aaaaaaa",
+      "Image": "C:\\fakepath\\image.png",
+      "id": 7
+    }
+  ],
+  "vendas": [
+    {
+      "id": 1,
+      "comprador": "Antonio Martins Cassiano",
+      "qprod": 2,
+      "nome": "Camisa Luffy",
+      "total": 55,
+      "tamanho": "M",
+      "situacao": "Pendente",
+      "descricao": "addsddfvsfs",
+      "marca": "Nike",
+      "image": "https://imgcentauro-a.akamaihd.net/600x600/95847031/camiseta-nike-dry-academy-21-top-masculina-img.jpg"
+    },
+    {
+      "id": 2,
+      "comprador": "Antonio Martins Cassiano",
+      "qprod": 1,
+      "camisa": "Nike azul",
+      "total": 55,
+      "tamanho": "P",
+      "situacao": "Aprovada",
+      "descricao": "ejnrvejrvkwejfvkjfvkjdfs",
+      "marca": "Nike",
+      "image": "https://imgcentauro-a.akamaihd.net/600x600/95847031/camiseta-nike-dry-academy-21-top-masculina-img.jpg"
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Antonio Martins Cassiano",
+      "cpf": "123.123.123-43",
+      "email": "teste@teste.com",
+      "senha": "123432",
+      "cidade": ""
+    },
+    {
+      "id": 2,
+      "nome": "Antonio Martins Cassiano",
+      "cpf": "123.123.123-43",
+      "email": "teste@teste.com",
+      "senha": "123432",
+      "cidade": ""
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "name": "typicode"
+  }
 }
